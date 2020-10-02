@@ -1,11 +1,12 @@
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
+
 int main()
 {
 	int p,i,a,b,c;
 	FILE *fptr;
-	fptr=fopen("input.txt","w");
+	fptr=fopen("input.txt","w");  //for open file in writing mode
 	for(i=1;i<51;i++)
 	{
 		fprintf(fptr,"%d",i);
